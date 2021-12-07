@@ -1,0 +1,1397 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+main {
+    height: 100%;
+    width: 80%;
+    background-color: rgb(231, 179, 188);
+    padding-top: 17px;
+}
+
+#stump {
+    height: 50px;
+    width: 10%;
+    background-color: rgb(43, 25, 15);
+    border-left: 10px solid rgb(65, 54, 43);
+}
+
+#row_1 {
+    height: 50px;
+    width: 50%;
+    background-color:rgb(7, 51, 7);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: 450px;
+    border-left: 10px solid rgb(28, 58, 28);
+}
+
+#row_2 {
+    height: 50px;
+    width: 45%;
+    background-color:rgb(7, 51, 7);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: 350px;
+    border-left: 10px solid rgb(28, 58, 28);
+}
+
+#row_3 {
+    height: 50px;
+    width: 40%;
+    background-color:rgb(7, 51, 7);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: 250px;
+    border-left: 10px solid rgb(28, 58, 28);
+}
+
+#row_4 {
+    height: 50px;
+    width: 35%;
+    background-color:rgb(7, 51, 7);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: 150px;
+    border-left: 10px solid rgb(28, 58, 28);
+}
+
+#row_5 {
+    height: 50px;
+    width: 30%;
+    background-color:rgb(7, 51, 7);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: 50px;
+    border-left: 10px solid rgb(28, 58, 28);
+}
+
+#row_6 {
+    height: 50px;
+    width: 25%;
+    background-color:rgb(7, 51, 7);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: -50px;
+    border-left: 10px solid rgb(28, 58, 28);
+}
+
+#row_7 {
+    height: 50px;
+    width: 20%;
+    background-color:rgb(7, 51, 7);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: -150px;
+    border-left: 10px solid rgb(28, 58, 28);
+}
+
+#row_8 {
+    height: 50px;
+    width: 15%;
+    background-color:rgb(7, 51, 7);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: -250px;
+    border-left: 10px solid rgb(28, 58, 28);
+}
+
+#row_9 {
+    height: 50px;
+    width: 10%;
+    background-color:rgb(7, 51, 7);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: -350px;
+    border-left: 10px solid rgb(28, 58, 28);
+}
+
+#row_10 {
+    height: 50px;
+    width: 5%;
+    background-color:rgb(7, 51, 7);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: -450px;
+    border-left: 10px solid rgb(28, 58, 28);
+}
+
+
+/* tinsel */
+
+#tinsel_row_1 {
+    height: 30px;
+    width: 42%;
+    position: relative;
+    top: -150px;
+    left: -28px;
+    transform:rotate(-10deg);
+    display:flex;
+}
+
+#tin_1, #tin_2, #tin_3, #tin_4, 
+#tin_5, #tin_6, #tin_7, #tin_8, #tin_9 {
+    height: 15px;
+    width:12%;
+    background-color: silver;
+    display: inline-block;
+    border-radius: 10px;
+    border-left: 3px solid rgb(141, 134, 134);
+}
+
+#tinsel_row_2 {
+    height: 30px;
+    width: 34%;
+    position: relative;
+    top: -290px;
+    left: -16px;
+    transform:rotate(-10deg);
+    display:flex;
+}
+
+#mid_tin_1, #mid_tin_2, #mid_tin_3, #mid_tin_4,
+#mid_tin_5, #mid_tin_6, #mid_tin_7, #mid_tin_8, #mid_tin_9 {
+    height: 15px;
+    width:50%;
+    background-color: gold;
+    display: inline-block;
+    border-radius: 10px;
+    border-left: 3px solid rgb(141, 134, 134);
+}
+
+#tinsel_row_3 {
+    height: 30px;
+    width: 22%;
+    position: relative;
+    top: -430px;
+    left: -6px;
+    transform:rotate(-10deg);
+    display:flex;
+}
+
+#top_tin_1, #top_tin_2, #top_tin_3, 
+#top_tin_4, #top_tin_5 {
+    height: 15px;
+    width:20%;
+    background-color: silver;
+    display: inline-block;
+    border-radius: 10px;
+    border-left: 3px solid rgb(141, 134, 134);
+}
+
+#very_top_1 {
+    height: 15px;
+    width: 12%;
+    position: relative;
+    top: -560px;
+    left: -5px;
+    transform:rotate(-10deg);
+    display:flex;
+}
+
+#very_top_tin_1, #very_top_tin_2, #very_top_tin_3 {
+    height: 15px;
+    width:33%;
+    background-color: gold;
+    display: inline-block;
+    border-radius: 10px;
+    border-left: 3px solid rgb(141, 134, 134);
+}
+
+.hole {
+    height: 10px;
+    width: 23px;
+    margin: 2px 12px;
+    background-color:rgb(7, 51, 7);
+    border-radius: 15px;
+}
+
+
+
+#star {
+    /* margin: 50px 0; */
+    position: relative;
+    display: block;
+    color: goldenrod;
+    width: 0px;
+    height: 0px;
+    border-right: 33.3px solid transparent;
+    border-bottom: 23.3px solid rgb(75, 60, 24);
+    border-left: 33.3px solid transparent;
+    transform: rotate(35deg);
+    top: 6px;
+    left: 1px;
+    z-index: 1000;
+  }
+  #star:before {
+    border-bottom: 28px solid rgb(75, 60, 24);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -20px;
+    left: -22px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+
+  #star:after {
+    position: absolute;
+    display: block;
+    color: goldenrod;
+    top: -1px;
+    left: -33.3px;
+    width: 0px;
+    height: 0px;
+    border-right: 33.3px solid transparent;
+    border-bottom: 23.3px solid rgb(75, 60, 24);
+    border-left: 33.3px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+
+  #bauble_1 {
+      height: 20px;
+      width: 20px;
+      background-color:rgb(82, 42, 83);
+      border-radius:50%;
+      position: absolute;
+      top: 150px;
+      left: 580px;
+      border-left: 5px solid rgb(88, 25, 85);
+      /* transition: ease-in-out 1s; */
+  }
+
+  #bauble_2 {
+    height: 30px;
+    width: 30px;
+    background-color:rgb(30, 37, 71);
+    border-radius:50%;
+    position: absolute;
+    top: 300px;
+    left: 520px;
+    border-left: 3px solid rgb(48, 34, 114);
+  }
+
+  #bauble_3 {
+    height: 30px;
+    width: 30px;
+    background-color:rgb(26, 66, 43);
+    border-radius:50%;
+    position: absolute;
+    top: 175px;
+    left: 650px;
+    border-left: 3px solid rgb(40, 77, 26);
+  }
+
+  #bauble_4 {
+    height: 20px;
+    width: 20px;
+    background-color:rgb(58, 56, 30);
+    border-radius:50%;
+    position: absolute;
+    top: 430px;
+    left: 460px;
+    border-left: 1.5px solid rgb(63, 59, 34);
+  }
+
+  #bauble_5 {
+    height: 30px;
+    width: 30px;
+    background-color:rgb(26, 61, 63);
+    border-radius:50%;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    border-left: 1.5px solid rgb(22, 84, 109);
+  }
+
+  #bauble_6 {
+    height: 20px;
+    width: 20px;
+    background-color:rgb(51, 18, 26);
+    border-radius:50%;
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    border-left: 1.5px solid rgb(75, 26, 26);
+  }
+
+  #bauble_7 {
+    height: 50px;
+    width: 50px;
+    background-color:rgb(59, 21, 21);
+    border-radius:50%;
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    border-left: 1.5px solid rgb(80, 25, 25);
+  }
+
+  #bauble_8 {
+    height: 20px;
+    width: 20px;
+    background-color:rgb(75, 61, 23);
+    border-radius:50%;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    border-left: 1.5px solid rgb(34, 36, 16);
+  }
+
+  #bauble_9 {
+    height: 30px;
+    width: 30px;
+    background-color:rgb(45, 56, 56);
+    border-radius:50%;
+    position: absolute;
+    top: 490px;
+    left: 450px;
+    border-left: 1.5px solid rgb(73, 85, 84);
+  }
+
+  #bauble_10 {
+    height: 45px;
+    width: 45px;
+    background-color:rgb(61, 27, 70);
+    border-radius:50%;
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    border-left: 1.5px solid rgb(67, 29, 82);  
+}
+
+#bauble_11 {
+    height: 35px;
+    width: 35px;
+    background-color:rgb(61, 26, 70);
+    border-radius:50%;
+    position: absolute;
+    top: 460px;
+    left: 600px;
+    border-left: 1.5px solid rgb(67, 29, 82); 
+}
+
+#bauble_12 {
+    height: 25px;
+    width: 25px;
+    background-color:rgb(73, 31, 83);
+    border-radius:50%;
+    position: absolute;
+    top: 500px;
+    left: 550px;
+    border-left: 1.5px solid rgb(67, 29, 82); 
+}
+
+
+
+/* first set of lights */
+
+#light_1 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -590px;
+    left:10px;
+    position: relative;
+}
+
+#light_2 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -600px;
+    left:30px;
+    position: relative;
+}
+
+#light_3 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -600px;
+    left:40px;
+    position: relative;
+}
+
+#light_4 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -610px;
+    left:-30px;
+    position: relative;
+}
+
+#light_5 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -630px;
+    left:-1px;
+    position: relative;
+}
+
+#light_6 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -610px;
+    left:-12px;
+    position: relative;
+}
+
+#light_7 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -600px;
+    left:-18px;
+    position: relative;
+}
+
+#light_8 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -655px;
+    left:10px;
+    position: relative;
+}
+
+#light_9 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -630px;
+    left:15px;
+    position: relative;
+}
+
+#light_10 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -630px;
+    left:-12px;
+    position: relative;
+}
+
+/* end of first set of lights */
+
+
+/* Second set of lights */
+
+#second_light_1 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -530px;
+    left:-12px;
+    position: relative;
+}
+
+#second_light_2 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -520px;
+    left:-50px;
+    position: relative;
+}
+
+#second_light_3 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -580px;
+    left:10px;
+    position: relative;
+}
+
+#second_light_4 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color:rgb(87, 24, 24);
+    top: -570px;
+    left:70px;
+    position: relative;
+}
+
+#second_light_5 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -540px;
+    left:78px;
+    position: relative;
+}
+
+#second_light_6 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -540px;
+    left:-75px;
+    position: relative;
+}
+
+#second_light_7 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -534px;
+    left:22px;
+    position: relative;
+}
+
+#second_light_8 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -600px;
+    left: -30px;
+    position: relative;
+}
+
+#second_light_9 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -590px;
+    left:40px;
+    position: relative;
+}
+
+#second_light_10 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -580px;
+    left:20px;
+    position: relative;
+}
+
+#second_light_11 {
+        height: 3px;
+        width: 3px;
+        border-radius: 50%;
+        background-color: rgb(17, 17, 68);
+        top: -540px;
+        left:-60px;
+        position: relative;
+}
+
+#second_light_12 {
+    height: 3px;
+        width: 3px;
+        border-radius: 50%;
+        background-color: rgb(85, 85, 85);
+        top: -590px;
+        left:-60px;
+        position: relative;    
+}
+
+#second_light_13 {
+    height: 3px;
+        width: 3px;
+        border-radius: 50%;
+        background-color: rgb(87, 24, 24);
+        top: -590px;
+        left:-5px;
+        position: relative;
+}
+
+#second_light_14 {
+        height: 3px;
+        width: 3px;
+        border-radius: 50%;
+        background-color: rgb(17, 17, 68);
+        top: -575px;
+        left:-35px;
+        position: relative;
+}
+
+/* enf of second set of lights */
+
+
+/* start of third set of lights */
+#third_light_1 {
+        height: 3px;
+        width: 3px;
+        border-radius: 50%;
+        background-color: rgb(87, 24, 24);
+        top: -475px;
+        left:-35px;
+        position: relative;    
+}
+
+#third_light_2 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -445px;
+    left:-135px;
+    position: relative;    
+}
+
+#third_light_3 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -500px;
+    left:80px;
+    position: relative;    
+}
+
+#third_light_4 {
+    height: 3px;
+    width: 3px;;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -520px;
+    left:-50px;
+    position: relative;    
+}
+
+#third_light_5 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -475px;
+    left:35px;
+    position: relative;    
+}
+
+#third_light_6 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -550px;
+    left:50px;
+    position: relative;    
+}
+
+#third_light_7 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -550px;
+    left:90px;
+    position: relative;    
+}
+
+#third_light_8 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -540px;
+    left:100px;
+    position: relative;    
+}
+
+#third_light_9 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -530px;
+    left:-85px;
+    position: relative;    
+}
+
+#third_light_10 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -520px;
+    left:-10px;
+    position: relative;    
+}
+
+#third_light_11 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -550px;
+    left:50px;
+    position: relative;    
+}
+
+#third_light_12 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -550px;
+    left:10px;
+    position: relative;    
+}
+
+#third_light_13 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -505px;
+    left:110px;
+    position: relative;    
+}
+
+#third_light_14 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -485px;
+    left:-50px;
+    position: relative;    
+}
+
+#third_light_15 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -500px;
+    left:10px;
+    position: relative;    
+}
+
+/* end of third set of lights */
+
+/* forth set of lights */
+
+#forth_light_1 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color:rgb(87, 24, 24);
+    top: -400px;
+    left:10px;
+    position: relative; 
+}
+
+#forth_light_2 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -410px;
+    left:-170px;
+    position: relative; 
+}
+
+#forth_light_3 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -470px;
+    left:120px;
+    position: relative; 
+}
+
+#forth_light_4 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -450px;
+    left:130px;
+    position: relative; 
+}
+
+#forth_light_5 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -400px;
+    left:-150px;
+    position: relative; 
+}
+
+#forth_light_6 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -430px;
+    left:120px;
+    position: relative; 
+}
+
+#forth_light_7 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -450px;
+    left:-140px;
+    position: relative; 
+}
+
+#forth_light_8 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -390px;
+    left:-185px;
+    position: relative; 
+}
+
+#forth_light_9 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -480px;
+    left:10px;
+    position: relative; 
+}
+
+#forth_light_10 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -510px;
+    left:140px;
+    position: relative; 
+}
+
+#forth_light_11 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -490px;
+    left:-30px;
+    position: relative; 
+}
+
+#forth_light_12 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -450px;
+    left:-50px;
+    position: relative; 
+}
+
+#forth_light_13 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -430px;
+    left:-30px;
+    position: relative; 
+}
+
+#forth_light_14 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -450px;
+    left:-90px;
+    position: relative; 
+}
+
+#forth_light_15 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -420px;
+    left:-100px;
+    position: relative; 
+}
+
+#forth_light_16 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -500px;
+    left:60px;
+    position: relative; 
+}
+
+#forth_light_17 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -510px;
+    left:50px;
+    position: relative; 
+}
+
+#forth_light_18 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color:rgb(85, 85, 85);
+    top: -490px;
+    left:-40px;
+    position: relative; 
+}
+
+#forth_light_19 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color:rgb(87, 24, 24);
+    top: -480px;
+    left:-15px;
+    position: relative; 
+}
+
+#forth_light_20 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -498px;
+    left:-80px;
+    position: relative; 
+}
+
+/* end of forth set of lights */
+
+/* fifth set of lights */
+
+#fifth_light_1 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -398px;
+    left:-80px;
+    position: relative; 
+}
+
+#fifth_light_2 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -350px;
+    left:110px;
+    position: relative; 
+}
+
+#fifth_light_3 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -400px;
+    left:150px;
+    position: relative; 
+}
+
+#fifth_light_4 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -380px;
+    left:230px;
+    position: relative; 
+}
+
+#fifth_light_5 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -350px;
+    left:210px;
+    position: relative; 
+}
+
+#fifth_light_6 
+{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -380px;
+    left:-110px;
+    position: relative; 
+}
+
+#fifth_light_7 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -380px;
+    left: 10px;
+    position: relative; 
+}
+
+#fifth_light_8 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -390px;
+    left:-200px;
+    position: relative; 
+}
+
+#fifth_light_9 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -380px;
+    left:-230px;
+    position: relative; 
+}
+
+#fifth_light_10 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -460px;
+    left:190px;
+    position: relative; 
+}
+
+#fifth_light_11 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -450px;
+    left:100px;
+    position: relative; 
+}
+
+#fifth_light_12 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -420px;
+    left:-50px;
+    position: relative; 
+}
+
+#fifth_light_13 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(87, 24, 24);
+    top: -450px;
+    left:70px;
+    position: relative; 
+}
+
+#fifth_light_14 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(17, 17, 68);
+    top: -440px;
+    left:60px;
+    position: relative; 
+}
+
+#fifth_light_15 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85);
+    top: -450px;
+    left:30px;
+    position: relative; 
+}
+
+
+/* end of fifth set of lights */
+
+
+
+
+#toggle {
+    float:right;
+    position: fixed;
+    top:10px;
+    right:28%;
+    display:flex;
+    width:80px;
+    height: 40px;
+    border-radius: 80px;
+    background: #222;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: inset 0 0px 60px rgba(0,0,0,0.1),
+                inset 0 8px 8px rgba(0,0,0,0.1),
+                inset 0 -4px rgba(0,0,0,0.1);
+}
+
+
+/* Button inside the toggle */
+#toggle .indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height:40px;
+    background: linear-gradient(to bottom, #444,#222);
+    border-radius: 50%;
+    transform: scale(0.9);
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5),
+                inset 0 4px 4px rgba(255,255,255,0.2),
+                inset 0 -4px 4px rgba(255,255,255,0.2);
+    transition: 0.5s;
+    
+
+}
+
+
+#toggle.active .indicator {
+    left: 40px;
+    background: linear-gradient(to bottom, #eaeaea,#f9f9f9);
+    box-shadow: 0 8px 40px rgba(0,0,0,0.1),
+                inset 0 4px 4px rgba(255,255,255,1),
+                inset 0 -4px 4px rgba(255,255,255,1);
+}
+
+
+.active .blink
+{
+    background-color: rgb(255, 255, 255);
+    transition: ease-in-out .5s ;
+    box-shadow:
+    0 0 6px 3px #fff,  /* inner white */
+    0 0 10px 6px #f0f, /* middle magenta */
+    0 0 40px 9px #0ff; /* outer cyan */
+    /* animation: blinker 1s linear infinite;  */
+    animation: blink 1s linear infinite;
+      }
+      @keyframes blink {
+        0% {
+          opacity: 0;
+        }   
+}
+
+.active .red
+{
+    background-color: rgb(255, 255, 255);
+    transition: ease-in-out .5s ;
+    box-shadow:
+    0 0 3px 3px rgb(255, 238, 0),  /* inner white */
+    0 0 5px 6px rgb(240, 102, 10), /* middle magenta */
+    0 0 20px 9px rgb(243, 18, 18); /* outer cyan */
+    /* animation: blinker 1s linear infinite;  */
+    animation:infinite 1s linear infinite;
+      }
+      @keyframes blink {
+        0% {
+          opacity: 0;
+        }   
+}
+
+.active .blue
+{
+    background-color: rgb(255, 255, 255);
+    transition: ease-in-out .5s ;
+    box-shadow:
+    0 0 3px 3px rgb(128, 189, 247),  /* inner white */
+    0 0 5px 3px rgb(59, 11, 235), /* middle magenta */
+    0 0 20px 4px rgb(6, 14, 85); /* outer cyan */
+    /* animation: blinker 1s linear infinite;  */
+    animation:infinite 1s linear infinite;
+      }
+      @keyframes blink {
+        0% {
+          opacity: 0;
+        }   
+}
+
+.active #star {
+    border-right: 33.3px solid transparent;
+    border-bottom: 23.3px solid rgb(255, 219, 127);
+    border-left: 33.3px solid transparent;
+}
+.active #star:before{
+    border-bottom: 28px solid rgb(255, 219, 127);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.active #star:after {
+    border-right: 33.3px solid transparent;
+    border-bottom: 23.3px solid rgb(255, 219, 127);
+    border-left: 33.3px solid transparent;
+}
+
+.active #light_3, .active #light_6, .active #light_9,
+.active #second_light_3, .active #second_light_6, .active #second_light_9,
+.active #second_light_12, .active #third_light_3, .active #third_light_6, .active #third_light_9,
+.active #third_light_12, .active #third_light_15,
+.active #forth_light_3, .active #forth_light_6, .active #forth_light_9, .active #forth_light_12, .active #forth_light_15,
+.active #forth_light_18,
+.active #fifth_light_3, .active #fifth_light_6, .active #fifth_light_9, .active #fifth_light_12, .active #fifth_light_15
+{
+    background-color: white;
+}
+
+.active #light_1, .active #light_4, .active #light_7, .active #light_10,
+.active #second_light_1, .active #second_light_4, .active #second_light_7, .active #second_light_10, .active #second_light_13,
+.active #third_light_1, .active #third_light_4, .active #third_light_7, .active #third_light_10, .active #third_light_13,
+.active #forth_light_1, .active #forth_light_4, .active #forth_light_7, 
+.active #forth_light_10, .active #forth_light_13, .active #forth_light_16, .active #forth_light_19,
+.active #fifth_light_1, .active #fifth_light_4, .active #fifth_light_7, .active #fifth_light_10, .active #fifth_light_13
+{
+    background-color: rgb(255, 255, 108);
+}
+
+.active #light_2, .active #light_5, .active #light_8, .active #second_light_2, .active #second_light_5, .active #second_light_8, .active #second_light_11, .active #second_light_14,
+.active #third_light_2, .active #third_light_5, .active #third_light_8, .active #third_light_11, .active #third_light_14,
+.active #forth_light_2, .active #forth_light_5, .active #forth_light_8, .active #forth_light_11, .active #forth_light_14, .active #forth_light_17, .active #forth_light_20,
+.active #fifth_light_2, .active #fifth_light_5, .active #fifth_light_8, .active #fifth_light_11, .active #fifth_light_14
+{
+background-color: rgb(59, 193, 255);
+}
+
+.active #bauble_1 {
+    background-color: rgb(164, 39, 196);
+    border-left: 3px solid rgb(190, 83, 211);
+}
+
+.active #bauble_2 {
+    background-color:rgb(97, 123, 252);
+ border-left: 3px solid rgb(193, 186, 226);
+    
+}
+
+.active #bauble_3{
+    background-color:rgb(83, 219, 142);
+    border-left: 3px solid rgb(180, 207, 170)
+}
+
+.active #bauble_4 {
+background-color:rgb(243, 235, 127);
+border-left: 1.5px solid rgb(255, 247, 193);
+}
+
+.active #bauble_5 {
+background-color:rgb(95, 223, 230);
+border-left: 1.5px solid rgb(210, 236, 247);
+}
+
+.active #bauble_6 {
+background-color:rgb(221, 72, 109);
+border-left: 1.5px solid rgb(199, 164, 164);
+}
+
+.active #bauble_7 {
+background-color:rgb(255, 61, 61);
+border-left: 1.5px solid rgb(209, 118, 118);
+}
+
+.active #bauble_8 {
+background-color:rgb(231, 189, 74);
+border-left: 1.5px solid rgb(207, 214, 144);
+}
+
+.active #bauble_9 {
+background-color:rgb(121, 216, 216);
+border-left: 1.5px solid rgb(161, 177, 175);
+}
+
+.active #bauble_10 { 
+background-color:rgb(194, 72, 228);
+border-left: 1.5px solid rgb(206, 167, 221); 
+}
+
+.active #bauble_11 {
+background-color:rgb(190, 71, 219);
+border-left: 1.5px solid rgb(184, 129, 206); 
+}
+
+.active #bauble_12 {
+background-color:rgb(216, 59, 255);
+border-left: 1.5px solid rgb(233, 176, 255);
+}
+
+
+.active #row_1, .active #row_2, .active #row_3, .active #row_4, .active #row_5, .active #row_6, .active #row_7, .active #row_8, .active #row_9, .active #row_10 {
+    background-color:rgb(20, 88, 20);
+    border-left: 10px solid rgb(101, 160, 101);
+}
+
+.active .hole {
+    background-color:rgb(25, 131, 25);
+}
+
+.active #tin_1, .active #tin_2, .active #tin_3, .active #tin_4,
+.active #tin_5, .active #tin_6, .active #tin_7, .active #tin_8, .active #tin_9,
+.active #top_tin_1, .active #top_tin_2, .active #top_tin_3, 
+.active #top_tin_4, .active #top_tin_5 
+{
+    background-color: rgb(241, 241, 241);
+}
+
+.active #mid_tin_1, .active #mid_tin_2, .active #mid_tin_3, .active #mid_tin_4, .active #mid_tin_5,
+.active #mid_tin_6, .active #mid_tin_7, .active #very_top_tin_1, .active #very_top_tin_2, .active #very_top_tin_3 {
+    background-color:rgb(233, 210, 84);
+}
+
+ .active body{
+    background-color: rgb(50, 50, 95);
+}
+.active main {
+    background-color: rgb(224, 127, 103);
+}
+.active #stump {
+    background-color: rgb(133, 78, 46);
+    border-left: 10px solid rgb(94, 54, 10);
+}
